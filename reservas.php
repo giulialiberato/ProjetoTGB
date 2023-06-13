@@ -54,7 +54,8 @@
         </div>     
     </header>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
+    
     <main>
         <img src="imagens/foto-orcamento.jpg" alt="foto.orcamentos" width="100%">
         

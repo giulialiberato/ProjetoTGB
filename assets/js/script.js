@@ -1,12 +1,3 @@
-const question = document.querySelector(".question");
-const answers = document.querySelector(".answers");
-const spnQtd = document.querySelector(".spnQtd");
-const textFinish = document.querySelector(".finish span");
-const textCupom = document.querySelector(".finish span");
-const content = document.querySelector(".content");
-const contentFinish = document.querySelector(".finish");
-const btnRestart = document.querySelector(".finish button");
-
 
 function menuShow() {
   let menuMobile = document.querySelector('.mobile-menu');
@@ -17,8 +8,15 @@ function menuShow() {
   }
 }
 
+const question = document.querySelector(".question");
+const answers = document.querySelector(".answers");
+const spnQtd = document.querySelector(".spnQtd");
+const textFinish = document.querySelector(".finish span");
+const content = document.querySelector(".content");
+const contentFinish = document.querySelector(".finish");
+const btnRestart = document.querySelector(".finish button");
 
-import questions from "questions.js";
+import questions from "./questions.js";
 
 let currentIndex = 0;
 let questionsCorrect = 0;
@@ -46,7 +44,7 @@ function nextQuestion(e) {
 }
 
 function finish() {
-  textFinish.innerHTML = `Parabéns! Você acertou ${questionsCorrect} de ${questions.length} perguntas!`;
+  textFinish.innerHTML = `você acertou ${questionsCorrect} de ${questions.length}`;
   content.style.display = "none";
   contentFinish.style.display = "flex"; 
 }
