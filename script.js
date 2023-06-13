@@ -18,7 +18,7 @@ function menuShow() {
 }
 
 
-import questions from "./assets/js/questions.js";
+import questions from "questions.js";
 
 let currentIndex = 0;
 let questionsCorrect = 0;
