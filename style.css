@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #1d322c;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #c0bebe;
+    margin: 0px;
+}
+
+/* CABEÇALHO */
+
+
+header {
+    background-color:#eaeaea;
+    width: 60%;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    margin-right: 6%;
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 35px;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #1d322c;
+    font-weight: 200;
+}
+
+.nav-link:hover{
+    color: #d4eb9d;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* PAGINA SOBRE NÓS */
+
+.containerCarrosel{
+    position: relative;
+    margin: 0 auto;
+}
+
+.galeria-wrapper{
+    overflow-x: auto;
+}
+
+.galeria{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+
+.item{
+    flex-shrink: 0;
+    transition: all 500ms ease-in-out;
+}
+
+
+.galeria-wrapper::-webkit-scrollbar {
+    width: 10%;               /* width of the entire scrollbar */
+  }
+  
+  .galeria-wrapper::-webkit-scrollbar-thumb {
+    background-color: #eaeaea;  
+    border-radius: 20px;       
+    border: 3px solid #b1adad;  
+    
+  }
+
+img {
+    margin-bottom: 20px;
+}
+
+
+article{
+    text-align: center;
+    font-size: 17px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.container,.container2 {
+    max-width: 1700px;
+    padding: 15px;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    row-gap: 50px;
+    column-gap: 25px;
+    
+}
+
+.container2{
+    display: flex;
+}
+
+.maps,.infoslocal{
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.maps{
+    min-height: 250px;
+}
+
+.infoslocal{
+    min-height: 100px;
+    margin-bottom: 47px;
+    display: none;
+}
+
+.whatsApp > a > img{
+    width: 50px;
+    position:fixed; 
+    bottom: 0; 
+    right:20px;
+}
+
+.whatsApp {
+    width: 70px;
+}
+
+/* PAGINA CONTATO */
+
+.box {
+    max-width: 1700px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    row-gap: 50px;
+    column-gap: 70px;
+}
+
+.faleconosco, .trabalheconosco{
+    width: 470px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    text-align: justify;
+    border-radius: 50px;
+    height: 555px;
+    color: #d5d7d8;
+}
+
+.trabalheconosco {
+    height: 360px;
+    
+}
+
+.inputContato, .inputTrabalhe {
+    border-radius: 15px;
+    width: 455px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 2px solid #babcb2;
+    background-color: #e6e6e6;
+    outline: none;
+}
+
+.textarea, .textarea2 {
+    border-radius: 15px;
+    border: 2px solid #1d322c;
+    outline: none;
+    color: #454b4f;
+    font-size: 15px;
+    background-color: #e6e6e6;
+}
+
+.tituloform {
+    text-align: center;
+    color:#e9eef1;
+    padding: 8px;
+}
+
+.faq {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: left;
+    color: #d0d0d0;
+}
+
+.rosa2{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.pergunta {
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+.resposta {
+    margin-left: 20px;
+    width: 750px;
+}
+/*PAGINA ORÇAMENTOS */
+
+.inputOrcamento {
+    border-radius: 15px;
+    width: 600px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #c8c7c7;
+    outline: none;
+    background-color: #ebe9e9;
+}
+
+.textarea2 {
+    margin-top: 12px;
+}
+
+#submit {
+    margin-top: 25px;
+    margin-left: 40%;
+    margin-right: 60%;
+    background-color: #d4eb9d;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: #353536;
+    width: 15%;
+}
+
+/* PAGINA MENU */
+
+img.logomenu {
+    width: 210px;
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.sobreloja {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 350px;
+}
+
+a > img {
+    width: 90px;
+}
+
+.barraM{
+    width: 910px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #669bba;
+    background-color:white;
+    text-align:center;
+    color: #454b4f;
+    font-size: 15px;
+}
+
+.classeM, .classeC {
+    color: #02401d;
+    background-color: #45a384;
+    padding: 12px;
+    font-size: 17px;
+    width: 880px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-weight: 100;
+}   
+
+.classeC {
+    text-align: center;
+    width: 70%;
+}
+
+.rosa, .rosa2 {
+    font-size: 17px;
+    font-weight: 100;
+    color: #d4eb9d;
+}
+
+
+.descritivoM {
+    width: 680px;
+    height: 130px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 17px;
+    border: 20px;
+}
+
+img.foto {
+    width: 126px;
+    border-radius: 30px;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+/*RODAPÉ*/
+
+footer {
+    background-color: #e4eaf1;
+    text-align: center;
+    color:#1d322c;
+}
+
+@media only screen and (min-width: 1660px) {
+    .container {
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 1115px) {
+    .nav-item {
+        margin: 0 25px;
+    }
+    .whatsApp {
+        display: none;
+    }
+    .classeM {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nav-bar {
+        padding-top: 1.5rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}

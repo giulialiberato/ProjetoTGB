@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>The Good Burger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" target="_self" class="nav-link">SOBRE NÓS</a></li>
+                    <li class="nav-item"><a href="contato.php" target="_self" rel="next" class="nav-link" >CONTATO</a></li>
+                    <li class="nav-item"><a href="reservas.php" target="_self" rel="next" class="nav-link">RESERVAS</a></li>
+                    <li class="nav-item"><a href="menu.html" target="_self" rel="next" class="nav-link">MENU</a></li>
+                    <li class="nav-item"><a href="paginaQuiz.html" target="_self" rel="next" class="nav-link">QUIZ</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagens/icone-menu-jaune.png" alt="" style="width: 27px;"></button>
+            </div>
+        </nav>
+        
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" target="_self" class="nav-link">SOBRE NÓS</a></li>
+                <li class="nav-item"><a href="contato.html" target="_self" rel="next" class="nav-link" >CONTATO</a></li>
+                <li class="nav-item"><a href="reservas.html" target="_self" rel="next" class="nav-link">RESERVAS</a></li>
+                <li class="nav-item"><a href="menu.html" target="_self" rel="next" class="nav-link">MENU</a></li>
+            </ul>
+        </div>    
+    </header>
+
+    <script src="script.js"></script>
+
+    <main>
+        <img class="logomenu" src="imagens/logoburger.png" alt="Logo">
+
+        <div class="sobreloja">
+            <div>
+                <p>The Good Burger</p>
+                <p>Rua Barão de Campanema, 549 - Jardins - São Paulo . SP - Brasil</p>
+            </div>
+                
+            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5511964684178"> <img src="imagens/WhatsApp-icone.png" class="whatsApp"></a>
+        </div>
+
+        <h1 class="classeM">- HAMBURGUER </h1>
+        
+        <div class="container2">
+            <div class="descritivoM">
+                <h2 class="rosa">BBQ BURGER</h2>
+                <p>Hambúrguer 100% bovino, bacon, anéis de cebola, queijo americano e molho barbecue</p>
+                <p class="preco">R$36,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/BbqBurger.jpg" alt="BbqBurger">
+            </div>
+
+            <div class="descritivoM">
+                <h2 class="rosa">BLT BURGER</h2>
+                <p>Peito de frango grelhado, bacon, tomate, alface batavia e molho TGB</p>
+                <p class="preco">R$32,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/BltBurger.jpg" alt="BltBurger">
+            </div>
+
+            <div class="descritivoM">
+                <h2 class="rosa"> BLUE MOUNTAIN </h2>
+                <p> Hamburguer 100% carne bovina, queijo gorgonzola, rúcula, bacon, cebola caramelizada e molho de mostarda forte.</p>
+                <p class="preco">R$36,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/BlueMontain.jpg" alt="BlueMontain">
+            </div>
+
+            <div class="descritivoM">
+                <h2 class="rosa"> CHEESEBURGER</h2>
+                <p>Hambúrguer 100% bovino, queijo americano, tomate, alface e molho TGB</p>
+                <p class="preco">R$28,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/Cheeseburger.jpg" alt="Cheeseburger">
+            </div>
+
+            <div class="descritivoM">
+                <h2 class="rosa"> CHICKENLESS BURGER</h2>
+                <p>Peito de frango vegano crocante, tomate, alface e molho suave.</p>
+                <p class="preco">R$28,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/ChickenBurger.jpg" alt="ChickenBurger">
+            </div>
+        </div>
+
+        <h1 class="classeM">- HOT DOGS</h1>
+
+        <div class="container2">
+            <div class="descritivoM">
+                <h2 class="rosa">ARIZONA</h2>
+                <p>Hot Dog clássico com anéis de cebola e molho BBQ. </p>
+                <p class="preco">R$26,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/Netuno.jpg" alt="HotDog Netuno">
+            </div>
+
+            <div class="descritivoM">
+                <h2 class="rosa">CLÁSSICO</h2>
+                <p>Clássico com mostarda e mel. </p>
+                <p class="preco">R$24,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/Urano.jpg" alt="HotDog Urano">
+            </div>
+        </div>
+
+        <h1 class="classeM"> - PORÇÕES </h1>
+
+        <div class="container2">
+
+            <div class="descritivoM">
+                <h2 class="rosa">CROCANTES DE QUEIJO E JALAPEÑO</h2>
+                <p>Uma boa combinação de sabores para quem gosta de picante.</p>
+                <p class="preco">R$24,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/Meteoritos.jpg" alt="Meteoritos">
+            </div>
+
+            <div class="descritivoM">
+                <h2 class="rosa"> FRITAS CLÁSSICA</h2>
+                <p>Temperado com sal. Escolha entre molho de cheddar e bacon, ali oli, queijo ralado ou ervas.</p>
+                <p class="preco">R$22,00</p>
+            </div>
+
+            <div>
+                <img class="foto" src="imagens/Batata.jpg" alt="Batata">
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <p>Site para fins educativos, dados e localizações genéricos.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #1d322c;
+}
+
+body h2 {
+  color: rgb(220, 218, 218);
+}
+
+main {
+  background-color: #dfdfdf;
+  padding: 10px;
+  width: 45%;
+  color: white;
+  border-radius: 10px;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imagemQuizz {
+  height: 10%;
+}
+
+
+.logo {
+  width: 60%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.spnQtd {
+  text-align: end;
+  padding-right: 5%;
+  color: black;
+}
+
+.question{
+  padding-bottom: 2%;
+  color:black;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5%;
+}
+
+button {
+  width: 100%;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #45a384;
+  color: white;
+  text-align: center;
+}
+
+.finish {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 5%;
+  color:black;
+}
+
+.finish button {
+  text-align: center;
+}
